@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/moonknight/Project/C++/first/main.cpp
-iostream
+D:/project/C++/first/Tree.cpp
+cstdio
 -
+
+D:/project/C++/first/main.cpp
 stdio.h
-/Users/moonknight/Project/C++/first/stdio.h
+D:/project/C++/first/stdio.h
+Tree.cpp
+D:/project/C++/first/Tree.cpp
 

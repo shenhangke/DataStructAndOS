@@ -1,10 +1,10 @@
-#include <iostream>
 #include "stdio.h"
+#include "Tree.cpp"
 
 
 
 
-struct TEST{
+/*struct TEST{
     int a;
     int b;
     char c;
@@ -17,7 +17,7 @@ typdef struct TEST_RENAME{
     int a;
     int b;
     char c;
-}test_rename;
+}test_rename;*/
 
 
 
@@ -27,7 +27,7 @@ typdef struct TEST_RENAME{
  * 鳄鱼，乌龟。。。。。
  *
  * */
-typedef struct PARTOFDATA{
+/*typedef struct PARTOFDATA{
     int age;
     int id;
     char gender;
@@ -48,8 +48,9 @@ typedef struct PARTOFDATA{
     //P_1->P_2->p_3.....
 
 }
+*/
 
-
+/*
 int add(int a,int b){
     a=5;
     myint c;
@@ -62,17 +63,17 @@ int add_by_point(int *point_a,int b){
     *point_a=6;
     return *point_a+b;
 }
-
+*/
 //引用的方式
-int add_by_ref(int &ref_a,int b){
+/*int add_by_ref(int &ref_a,int b){
     ref_a=10;
     return ref_a+b;
-}
+}*/
 
 
 //这个函数需要执行100s
 //如果是负数的话，正常一个好的算法，是需要处理这种情况的
-int add_sum(int n){
+/*int add_sum(int n){
     int sum=0;
     if (n<0){
         return -1;
@@ -93,14 +94,15 @@ int test(int n){
         }
     }
     return sum;
-}
+}*/
 
 //只用1s
-int add_sum_2(int n){
+/*int add_sum_2(int n){
     n=1;
     n=4;
     return ((1+n)/2)*n;   //这里只用了一次运算，只用了1s   O(1)
 }
+*/
 
 //在一般的函数调用的时候，发生这样的一个过程
 /*
@@ -188,8 +190,8 @@ int add_sum_2(int n){
  * */
 
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
+//int main() {
+    /*std::cout << "Hello, World!" << std::endl;
     int aa=1;
     int* point_aa=&aa;
 
@@ -223,13 +225,13 @@ int main() {
     printf("the value of q is: %d\n",q);
 
 
-    return 0;
+    return 0;*/
 
-    int a;
+    //int a;
     //int 的全名是integer,意思是整数 ，比如1，。2，-1，-2
-    float b;
+   // float b;
     //7.8,0.123
-    char c;
+   // char c;
     //'a','b'
 
     //指针
@@ -261,4 +263,10 @@ int main() {
      * */
 
 
+//}
+
+int main(){
+    printf("123\n");
+    construct(&root);
+    pre_walk(&root);
 }

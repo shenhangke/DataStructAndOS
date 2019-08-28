@@ -4,107 +4,86 @@
 	<Project>
 		<Option title="first"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="gcc"/>
+		<Option compiler="clang"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/moonknight/Project/C++/first/cmake-build-debug"/>
+				<Option working_dir="D:/project/C++/first/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/moonknight/Project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/moonknight/Project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/moonknight/Project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/moonknight/Project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/moonknight/Project/C++/first/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/moonknight/Project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/moonknight/Project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/moonknight/Project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/moonknight/Project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/moonknight/Project/C++/first/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/moonknight/Project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/moonknight/Project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/moonknight/Project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/moonknight/Project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/code_Tools/C++/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/code_Tools/C++/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/code_Tools/C++/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/code_Tools/C++/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="first">
-				<Option output="/Users/moonknight/Project/C++/first/cmake-build-debug/first" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/moonknight/Project/C++/first/cmake-build-debug"/>
+				<Option output="D:/project/C++/first/cmake-build-debug/first.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/project/C++/first/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="clang"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="D:\code_Tools\C++\CLang\build\Debug\lib\clang\9.0.0\include"/>
+					<Add directory="D:\Compiler\vs2015\VC\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/moonknight/Project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 first"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/moonknight/Project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/moonknight/Project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/moonknight/Project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/code_Tools/C++/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 first"/>
+					<CompileFile command="D:/code_Tools/C++/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/code_Tools/C++/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/code_Tools/C++/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="first/fast">
-				<Option output="/Users/moonknight/Project/C++/first/cmake-build-debug/first" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/moonknight/Project/C++/first/cmake-build-debug"/>
+				<Option output="D:/project/C++/first/cmake-build-debug/first.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/project/C++/first/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="clang"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="D:\code_Tools\C++\CLang\build\Debug\lib\clang\9.0.0\include"/>
+					<Add directory="D:\Compiler\vs2015\VC\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\8.1\include\winrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/moonknight/Project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 first/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/moonknight/Project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/moonknight/Project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/moonknight/Project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/code_Tools/C++/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 first/fast"/>
+					<CompileFile command="D:/code_Tools/C++/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/code_Tools/C++/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/code_Tools/C++/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/project/C++/first/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/code_Tools/C++/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/code_Tools/C++/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/code_Tools/C++/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/code_Tools/C++/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/project/C++/first/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/code_Tools/C++/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/code_Tools/C++/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/code_Tools/C++/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/code_Tools/C++/MinGW/mingw64/bin/mingw32-make.exe -f &quot;D:/project/C++/first/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/moonknight/Project/C++/first/Tree/Tree.cpp">
+		<Unit filename="D:/project/C++/first/main.cpp">
 			<Option target="first"/>
 		</Unit>
-		<Unit filename="/Users/moonknight/Project/C++/first/array/array.cpp">
-			<Option target="first"/>
-		</Unit>
-		<Unit filename="/Users/moonknight/Project/C++/first/linkedTable/linkedTable.cpp">
-			<Option target="first"/>
-		</Unit>
-		<Unit filename="/Users/moonknight/Project/C++/first/linkedTable/linkedTable.h">
-			<Option target="first"/>
-		</Unit>
-		<Unit filename="/Users/moonknight/Project/C++/first/main.cpp">
-			<Option target="first"/>
-		</Unit>
-		<Unit filename="/Users/moonknight/Project/C++/first/queue/queue.cpp">
-			<Option target="first"/>
-		</Unit>
-		<Unit filename="/Users/moonknight/Project/C++/first/stack/stack.cpp">
-			<Option target="first"/>
-		</Unit>
-		<Unit filename="/Users/moonknight/Project/C++/first/string/mystring.cpp">
-			<Option target="first"/>
-		</Unit>
-		<Unit filename="/Users/moonknight/Project/C++/first/CMakeLists.txt">
+		<Unit filename="D:/project/C++/first/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
