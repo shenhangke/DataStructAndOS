@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/project/C++/first/Graph.cpp" "D:/project/C++/first/cmake-build-debug/CMakeFiles/first.dir/Graph.cpp.obj"
   "D:/project/C++/first/main.cpp" "D:/project/C++/first/cmake-build-debug/CMakeFiles/first.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")

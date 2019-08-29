@@ -1,18 +1,4 @@
 D:\Compiler\CMake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=D:/code_Tools/C++/CLang/build/Debug/bin/clang.exe -DCMAKE_CXX_COMPILER=D:/code_Tools/C++/CLang/build/Debug/bin/clang++.exe -G "CodeBlocks - MinGW Makefiles" D:\project\C++\first
--- The C compiler identification is Clang 9.0.0 with GNU-like command-line
--- The CXX compiler identification is Clang 9.0.0 with GNU-like command-line
--- Check for working C compiler: D:/code_Tools/C++/CLang/build/Debug/bin/clang.exe
--- Check for working C compiler: D:/code_Tools/C++/CLang/build/Debug/bin/clang.exe -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Check for working CXX compiler: D:/code_Tools/C++/CLang/build/Debug/bin/clang++.exe
--- Check for working CXX compiler: D:/code_Tools/C++/CLang/build/Debug/bin/clang++.exe -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
 -- Build files have been written to: D:/project/C++/first/cmake-build-debug
