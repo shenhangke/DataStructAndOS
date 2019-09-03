@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/first.dir/Graph.cpp.obj"
   "CMakeFiles/first.dir/main.cpp.obj"
+  "CMakeFiles/first.dir/search.cpp.obj"
   "first.exe"
   "first.exe.manifest"
   "first.lib"
