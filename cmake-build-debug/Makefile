@@ -203,6 +203,33 @@ search.cpp.s:
 	$(MAKE) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/search.cpp.s
 .PHONY : search.cpp.s
 
+sort.obj: sort.cpp.obj
+
+.PHONY : sort.obj
+
+# target to build an object file
+sort.cpp.obj:
+	$(MAKE) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/sort.cpp.obj
+.PHONY : sort.cpp.obj
+
+sort.i: sort.cpp.i
+
+.PHONY : sort.i
+
+# target to preprocess a source file
+sort.cpp.i:
+	$(MAKE) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/sort.cpp.i
+.PHONY : sort.cpp.i
+
+sort.s: sort.cpp.s
+
+.PHONY : sort.s
+
+# target to generate assembly for a file
+sort.cpp.s:
+	$(MAKE) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/sort.cpp.s
+.PHONY : sort.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -221,6 +248,9 @@ help:
 	@echo ... search.obj
 	@echo ... search.i
 	@echo ... search.s
+	@echo ... sort.obj
+	@echo ... sort.i
+	@echo ... sort.s
 .PHONY : help
 
 

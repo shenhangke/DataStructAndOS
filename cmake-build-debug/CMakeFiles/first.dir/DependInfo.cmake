@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/project/C++/first/Graph.cpp" "D:/project/C++/first/cmake-build-debug/CMakeFiles/first.dir/Graph.cpp.obj"
   "D:/project/C++/first/main.cpp" "D:/project/C++/first/cmake-build-debug/CMakeFiles/first.dir/main.cpp.obj"
   "D:/project/C++/first/search.cpp" "D:/project/C++/first/cmake-build-debug/CMakeFiles/first.dir/search.cpp.obj"
+  "D:/project/C++/first/sort.cpp" "D:/project/C++/first/cmake-build-debug/CMakeFiles/first.dir/sort.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

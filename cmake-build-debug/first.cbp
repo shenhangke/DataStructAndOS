@@ -89,6 +89,9 @@
 		<Unit filename="D:/project/C++/first/search.cpp">
 			<Option target="first"/>
 		</Unit>
+		<Unit filename="D:/project/C++/first/sort.cpp">
+			<Option target="first"/>
+		</Unit>
 		<Unit filename="D:/project/C++/first/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
