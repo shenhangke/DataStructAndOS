@@ -122,6 +122,33 @@ first/fast:
 	$(MAKE) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/build
 .PHONY : first/fast
 
+Arr.obj: Arr.cpp.obj
+
+.PHONY : Arr.obj
+
+# target to build an object file
+Arr.cpp.obj:
+	$(MAKE) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/Arr.cpp.obj
+.PHONY : Arr.cpp.obj
+
+Arr.i: Arr.cpp.i
+
+.PHONY : Arr.i
+
+# target to preprocess a source file
+Arr.cpp.i:
+	$(MAKE) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/Arr.cpp.i
+.PHONY : Arr.cpp.i
+
+Arr.s: Arr.cpp.s
+
+.PHONY : Arr.s
+
+# target to generate assembly for a file
+Arr.cpp.s:
+	$(MAKE) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/Arr.cpp.s
+.PHONY : Arr.cpp.s
+
 Graph.obj: Graph.cpp.obj
 
 .PHONY : Graph.obj
@@ -239,6 +266,9 @@ help:
 	@echo ... first
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Arr.obj
+	@echo ... Arr.i
+	@echo ... Arr.s
 	@echo ... Graph.obj
 	@echo ... Graph.i
 	@echo ... Graph.s

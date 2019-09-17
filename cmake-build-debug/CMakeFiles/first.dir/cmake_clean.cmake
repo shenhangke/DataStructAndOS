@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/first.dir/Arr.cpp.obj"
   "CMakeFiles/first.dir/Graph.cpp.obj"
   "CMakeFiles/first.dir/main.cpp.obj"
   "CMakeFiles/first.dir/search.cpp.obj"

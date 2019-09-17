@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/project/C++/first/Arr.cpp">
+			<Option target="first"/>
+		</Unit>
 		<Unit filename="D:/project/C++/first/Graph.cpp">
 			<Option target="first"/>
 		</Unit>
