@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/project/C++/first/Arr.cpp" "D:/project/C++/first/cmake-build-debug/CMakeFiles/first.dir/Arr.cpp.obj"
   "D:/project/C++/first/Graph.cpp" "D:/project/C++/first/cmake-build-debug/CMakeFiles/first.dir/Graph.cpp.obj"
+  "D:/project/C++/first/OS .cpp" "D:/project/C++/first/cmake-build-debug/CMakeFiles/first.dir/OS_.cpp.obj"
   "D:/project/C++/first/main.cpp" "D:/project/C++/first/cmake-build-debug/CMakeFiles/first.dir/main.cpp.obj"
   "D:/project/C++/first/search.cpp" "D:/project/C++/first/cmake-build-debug/CMakeFiles/first.dir/search.cpp.obj"
   "D:/project/C++/first/sort.cpp" "D:/project/C++/first/cmake-build-debug/CMakeFiles/first.dir/sort.cpp.obj"

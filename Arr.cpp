@@ -1,6 +1,7 @@
 //
 // Created by MoonKnight on 2019/9/17.
 //
+#include "Windows.h"
 
 int a[10];
 
@@ -22,9 +23,17 @@ void delete_1(){
                 //删除J指向的那个元素
             }
         }
+
     }
+
 
     //移动被你换成不可能值的那些格子
     //将后面的元素统一往前面移动一格
 }
+
+void  add(int a,int b);
+
+FILE *file;
+
+
 

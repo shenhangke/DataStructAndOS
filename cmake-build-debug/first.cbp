@@ -86,6 +86,9 @@
 		<Unit filename="D:/project/C++/first/Graph.cpp">
 			<Option target="first"/>
 		</Unit>
+		<Unit filename="D:/project/C++/first/OS .cpp">
+			<Option target="first"/>
+		</Unit>
 		<Unit filename="D:/project/C++/first/main.cpp">
 			<Option target="first"/>
 		</Unit>

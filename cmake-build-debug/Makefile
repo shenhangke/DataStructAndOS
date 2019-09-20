@@ -176,6 +176,33 @@ Graph.cpp.s:
 	$(MAKE) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/Graph.cpp.s
 .PHONY : Graph.cpp.s
 
+OS_.obj: OS_.cpp.obj
+
+.PHONY : OS_.obj
+
+# target to build an object file
+OS_.cpp.obj:
+	$(MAKE) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/OS_.cpp.obj
+.PHONY : OS_.cpp.obj
+
+OS_.i: OS_.cpp.i
+
+.PHONY : OS_.i
+
+# target to preprocess a source file
+OS_.cpp.i:
+	$(MAKE) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/OS_.cpp.i
+.PHONY : OS_.cpp.i
+
+OS_.s: OS_.cpp.s
+
+.PHONY : OS_.s
+
+# target to generate assembly for a file
+OS_.cpp.s:
+	$(MAKE) -f CMakeFiles\first.dir\build.make CMakeFiles/first.dir/OS_.cpp.s
+.PHONY : OS_.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -272,6 +299,9 @@ help:
 	@echo ... Graph.obj
 	@echo ... Graph.i
 	@echo ... Graph.s
+	@echo ... OS_.obj
+	@echo ... OS_.i
+	@echo ... OS_.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
